@@ -1,11 +1,5 @@
 # 📚 Learning Hub!
 
-| Aperçu                                                                     | Nom                                         |
-|----------------------------------------------------------------------------|---------------------------------------------|
-| <img width="200" height="auto" src="2022_14jun_ToDoList_JS/preview.png" /> | ToDoList<br/>[voir](2022_14jun_ToDoList_JS) |
-
-
-| ToDoList                                                                   |
+| [ToDoList ](2022_14jun_ToDoList_JS)                                        |
 |----------------------------------------------------------------------------|
 | <img width="200" height="auto" src="2022_14jun_ToDoList_JS/preview.png" /> |
-| [Visiter le projet ](2022_14jun_ToDoList_JS)                               |
