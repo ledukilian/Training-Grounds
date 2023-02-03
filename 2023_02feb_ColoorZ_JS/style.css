@@ -82,10 +82,10 @@ button {
 .panel button {
     font-size: 1.2rem;
     margin: 1rem;
-    padding: 1rem 2rem;
+    padding: 1rem 3rem;
     background: #3F3F3F;
     color: #FFFFFF;
-    border-radius: 1rem;
+    border-radius: 3rem;
     border: none;
 }
 .panel p {
