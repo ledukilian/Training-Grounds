@@ -77,24 +77,35 @@ button {
     flex-direction: column;
 }
 .panel {
+    border-top: 8px solid #1F1F1F;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     height: 20vh;
+    color: #1F1F1F;
+    background: #cbcbcb;
 }
 .panel button {
     outline: none;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     margin: 1rem;
     padding: 1rem 3rem;
-    background: #2F2F2F;
+    background: #1F1F1F;
     color: #FFFFFF;
     border-radius: 3rem;
     border: none;
 }
 .panel p {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
+.panel button, .controls button {
+    transition: 0.5s ease;
+}
+.panel button:hover, .controls button:hover {
+    transition: 0.5s ease;
+    transform: scale(1.1);
+}
+
 .library-panel,.generate-panel,.save-panel {
     display: flex;
     flex-direction: column;
@@ -169,11 +180,11 @@ input[type="range"] {
     cursor: pointer;
 }
 .library-popup {
-    min-width: 40%;
+    min-width: 50%;
     padding: 1rem;
     justify-content: flex-start;
     overflow-y: scroll;
-    max-height: 50vh;
+    max-height: 70vh;
 }
 .custom-palette {
     display: flex;
@@ -204,4 +215,21 @@ input[type="range"] {
     font-size: 1.1rem;
     color: #FFFFFF;
     background: #2F2F2F;
+}
+.close-library, .close-save {
+    padding: 0.8rem 1.4rem;
+}
+
+::-webkit-scrollbar {
+    width: 0em;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #000000;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
 }
